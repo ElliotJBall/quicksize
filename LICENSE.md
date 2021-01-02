@@ -1,26 +1,6 @@
-# Quicksize
-Quicksize is a small utility application for Macs that allow you to quickly adjust the resolution of connected displays.
-
---- 
-
-![Quicksize Screenshot](images/demo-1.png)
-
-
-## Compiling the project
-_I used Xcode 12 whilst developing this application (Version 12.3)_
-
-1. Clone the project:<br>`git clone https://github.com/ElliotJBall/quicksize`
-2. Switch to the directory:<br>`cd quicksize/`
-3. Open the project in Xcode:<br>`open quicksize.xcodeproj`
-4. Compile and Launch using <span title="Command + R">⌘R</span>
-
-## Notes
-- I am deliberately filtering out resolutions with a sub 60 (AKA 30hz) refresh rate. If you want them to also be displayed in the list fork the project and remove: `roundedRefreshRate < 59` from the `AppDelegate.swift` file on line `63`
-
-## License 
 MIT License
 
-Copyright (c) 2020, Elliot Ball
+Copyright (c) 2020 Elliot Ball
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
